@@ -6,7 +6,6 @@ const counterReducer = (state = 0, action) => {
     case "DEC":
       return state - 1;
   }
-  return state;
 };
 
 export default counterReducer;
